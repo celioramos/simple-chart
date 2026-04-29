@@ -3,7 +3,7 @@ return `${nome}: ${mensagem}`;
 }
 
 function respostaBot(msg) {
-return "Bot: Recebi sua mensagem!";
+return "Bot: Recebi sua mensagem! Obrigado.";
 }
 
 const mensagem = enviarMensagem("Usuário", "Oi");
