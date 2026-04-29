@@ -2,11 +2,15 @@ function enviarMensagem(nome, mensagem) {
 return `${nome}: ${mensagem}`;
 }
 
-function respostaBot(msg) {
-return "Bot: Recebi sua mensagem! Obrigado.";
+function respostaAutomatica(mensagem) {
+if (mensagem.toLowerCase().includes("oi")) {
+return "Bot: Olá! Como posso ajudar?";
+}
+return "Bot: Entendi sua mensagem.";
 }
 
-const mensagem = enviarMensagem("Usuário", "Oi");
+// simulação
+const msg = enviarMensagem("Usuário", "Oi");
 
-console.log(mensagem);
-console.log(respostaBot(mensagem));
+console.log(msg);
+console.log(respostaAutomatica(msg));
