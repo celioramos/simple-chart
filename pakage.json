@@ -1,0 +1,11 @@
+{
+  "name": "simple-chart",
+  "version": "1.0.0",
+  "description": "Projeto simples",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
